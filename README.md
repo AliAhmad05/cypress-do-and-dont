@@ -1,4 +1,4 @@
-[![Cypress Tests](https://github.com/AliAhmad05/cypress-do-and-dont/actions/workflows/ci.yml/badge.svg)](https://github.com/AliAhmad05/cypress-do-and-dont/actions/workflows/ci.yml)
+[![Cypress e2e Tests](https://github.com/AliAhmad05/cypress-do-and-dont/actions/workflows/ci.yml/badge.svg)](https://github.com/AliAhmad05/cypress-do-and-dont/actions/workflows/ci.yml)
 
 ## Owner
 
