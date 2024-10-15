@@ -1,5 +1,6 @@
 describe(`Cypress: Increase Execution Speed - Do's and Dont's`, () => {
   it('0: Not Using Anything', () => {
+    // <--- Don't
     // Test without any delay or optimization.
     // This test will run with Cypress's default behavior.
     const startTime = new Date() // Get start time, so I can show the execution time in the log [Ignore This]
@@ -21,6 +22,7 @@ describe(`Cypress: Increase Execution Speed - Do's and Dont's`, () => {
   })
 
   it('0: Using Delay', () => {
+    //<!--- Do -->
     // Test using `{ delay: 0 }` to disable typing delay.
     // This reduces the time spent on typing, making the test faster.
     const startTime = new Date() // Get start time, so I can show the execution time in the log [Ignore This]
