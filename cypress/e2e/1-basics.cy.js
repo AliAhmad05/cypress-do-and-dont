@@ -1,4 +1,4 @@
-describe(`Cypress: Do's and Don't`, () => {
+describe(`Cypress: Basics - Do's and Don't`, () => {
   it('0: Set BaseUrl', () => {
     //.  BaseUrl: Set baseurl in the cypress.config.js file and use it in your tests by using / or nothing (keeping it empty) in your cy.visit()
     // cy.visit('https://practicesoftwaretesting.com/') // <--- Don't

@@ -17,5 +17,9 @@
 import './commands'
 require('cypress-plugin-xhr-toggle')
 
+Cypress.on('test:finished', (test) => {
+  console.log(`Test "${test.title}" finished in ${test.runtime}ms`)
+})
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
